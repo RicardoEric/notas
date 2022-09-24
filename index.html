@@ -352,11 +352,12 @@ table,td {
 <ul>audio</ul>
 
 <h1>Formulario</h1>
-<form>
+<form action="" method="get">
 
-<label for="nombre">Nombre</label>
-<input type="text" id="nombre"  placeholder="Nombre">
-
+    
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre"  placeholder="Nombre">
+    
 <label for="Edad">Edad</label>
 <input type="number" id="Edad">
 
@@ -369,7 +370,7 @@ table,td {
 
 
 <label for="Sexo">Sexo</label>
-<input type="radio" name="sexo" id="H">
+<input type="radio" name="sexo" value="h" id="H">
 <label for="H">H</label>
 <input type="radio" name="sexo" id="M">
 <label for="M">M</label>
@@ -383,7 +384,7 @@ table,td {
     <option value="Iztaculco">Iztaculco</option>
     <option value="Iztapalapa">Iztapalapa</option>
     <option value="Iztaculco">Iztaculco</option>
-   
+    
 </select>
 
 <textarea dols="20" rows="5" placeholder="comentarios"></textarea>
@@ -413,9 +414,11 @@ table,td {
 <label for="check">Android</label>
 <input type="checkbox" id="check">
 
+<input type="submit" value="Enviar">
 <button type="button">Enviar</button>
-
 </form>
+
+
 
 
 </body>
